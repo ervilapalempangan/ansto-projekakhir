@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_menu">
+
+    <TextView
+        android:id="@+id/tvjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="8dp"
+        android:layout_marginTop="60dp"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:layout_gravity="center">
+    </TextView>
+    <Button
+        android:id="@+id/btnkopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kopi"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp">
+    </Button>
+    <Button
+        android:id="@+id/btnboba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boba"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp">
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

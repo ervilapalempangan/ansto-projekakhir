@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">imageview</string>
+    <string-array name="spinnerJurusan">
+        <item>Jurusan</item>
+        <item>Teknik Elektro</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Informatika</item>
+        <item>Teknik Mesin</item>
+    </string-array>
+</resources>

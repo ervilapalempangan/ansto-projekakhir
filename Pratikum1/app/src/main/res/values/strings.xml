@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pratikum1</string>
+    <string name="nama" >Nama : </string>
+    <string name="namalengkap">Nama Lengkap</string>
+    <string name="prodi" >Prodi : </string>
+    <string name="pil">Pilihan : </string>
+    <string name="submit">Submit</string>
+</resources>
